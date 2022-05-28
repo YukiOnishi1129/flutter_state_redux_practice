@@ -12,16 +12,16 @@ class TodoDeleteAction {
   final int id;
 }
 
-class TodoLoadAction {
-  const TodoLoadAction();
+class TodosLoadAction {
+  const TodosLoadAction();
 }
 
-class TodoSaveAction {
-  const TodoSaveAction();
+class TodosSaveAction {
+  const TodosSaveAction();
 }
 
-class TodoSetAction {
-  const TodoSetAction({this.nextId, required this.todos});
+class TodosSetAction {
+  const TodosSetAction({this.nextId, required this.todos});
 
   final int? nextId;
   final List<Todo> todos;
